@@ -123,3 +123,33 @@ header>nav>a:nth-child(4):hover,header>nav>a:nth-child(5):hover {
     align-items: center;
     justify-content: center;
 }
+
+#hero-section>#left-side>.socials>.github {
+    height: 75px;
+    aspect-ratio: 1/1;
+    background: url("../image/icons8-github-120.png") center;
+    margin-right: 15px;
+    background-size: cover;
+    border-radius: 100%;
+    transition-duration: 0.2s;
+}
+
+#hero-section>#left-side>.socials>.instagram {
+    height: 75px;
+    aspect-ratio: 1/1;
+    background: url("../image/icons8-insta-208.png") center;
+    margin-right: 15px;
+    background-size: cover;
+    border-radius: 100%;
+    transition-duration: 0.2s;
+}
+
+#hero-section>#left-side>.socials>.linkedin {
+    height: 75px;
+    aspect-ratio: 1/1;
+    background: url("../image/icons8-linkedin-150.png") center;
+    background-size: 90px 90px;
+    margin-right: 15px;
+    border-radius: 100%;
+    transition-duration: 0.2s;
+}
