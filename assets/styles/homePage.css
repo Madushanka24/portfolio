@@ -306,9 +306,9 @@ header>nav>a {
     color: black;
     font-size: 20px;
     text-align: center;
-    top: 400px;
+    top: 50px;
     bottom: 0;
-    right: -20px;
+    right: 750px;
     margin: auto;
 }
 
@@ -319,9 +319,9 @@ header>nav>a {
     color: black;
     font-size: 20px;
     text-align: center;
-    top: 400px;
+    top: 50px;
     bottom: 0;
-    right: -20px;
+    right: 285px;
     margin: auto;
 }
 
@@ -332,9 +332,9 @@ header>nav>a {
     color: black;
     font-size: 20px;
     text-align: center;
-    top: 400px;
+    top: 50px;
     bottom: 0;
-    right: -20px;
+    right: -200px;
     margin: auto;
 }
 
