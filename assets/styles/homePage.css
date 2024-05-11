@@ -162,7 +162,7 @@ header>nav>a {
 }
 
 .line-left>hr,.line-right>hr {
-    height: 5px;
+    height: 7px;
     width: 33dvw;
     border: 0;
     background: #192A56;
@@ -171,13 +171,13 @@ header>nav>a {
 .line-left {
     position: absolute;
     left: 0;
-    top: 22px;
+    top: 10px;
 }
 
 .line-right {
     position: absolute;
     right: 0;
-    top: 22px;
+    top: 10px;
 }
 
 #About {
@@ -196,9 +196,9 @@ header>nav>a {
     height: 60px;
     color: #192A56;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 38px;
     position: absolute;
-    left: 0;
+    left: 50px;
     right: 0;
     top: 0;
     margin: auto;
@@ -225,10 +225,50 @@ header>nav>a {
     color: black;
     font-size: 20px;
     text-align: left;
-    top: 30px;
+    top: -200px;
     bottom: 0;
     right: 120px;
     margin: auto;
+}
+
+#skill{
+    height: 400px;
+    width: 741px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    top: 400px;
+    bottom: 0;
+    right: 300px;
+    margin: auto;
+}
+
+#education{
+    height: 400px;
+    width: 741px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    top: 400px;
+    bottom: 0;
+    right: -20px;
+    margin: auto;
+}
+
+#aboutMe-right-side>p:nth-child(2) {
+    display: none;
+}
+
+#line-long_01>hr {
+    height: 3px;
+    width: 55dvw;
+    border: 0;
+    background: #192A56;
+    position: absolute;
+    right: 0;
+    top: 22px;
 }
 
 
