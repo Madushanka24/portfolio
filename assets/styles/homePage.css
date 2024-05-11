@@ -161,5 +161,74 @@ header>nav>a {
     transition-duration: 0.2s;
 }
 
+.line-left>hr,.line-right>hr {
+    height: 5px;
+    width: 33dvw;
+    border: 0;
+    background: #192A56;
+}
+
+.line-left {
+    position: absolute;
+    left: 0;
+    top: 22px;
+}
+
+.line-right {
+    position: absolute;
+    right: 0;
+    top: 22px;
+}
+
+#About {
+    position: relative;
+    height: 790px;
+    width: 88%;
+    top: 140px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#About>h1 {
+    width: 230px;
+    height: 60px;
+    color: #192A56;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
+
+#About-left-side {
+    width: 696px;
+    height: 680px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: url("..//") center no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#About-right-side {
+    height: 400px;
+    width: 741px;
+    position: absolute;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    top: 30px;
+    bottom: 0;
+    right: 120px;
+    margin: auto;
+}
 
 
