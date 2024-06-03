@@ -378,3 +378,19 @@ header>nav>a {
     margin: auto;
 }
 
+
+
+#github-button {
+    width: 280px;
+    height: 50px;
+    bottom: 0;
+}
+
+#github-button-tag {
+    color: #192A56;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+
+
