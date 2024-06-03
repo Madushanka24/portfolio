@@ -452,3 +452,35 @@ header>nav>a {
 ::placeholder {
     color: #E0E0E0;
 }
+
+#contact-details-middle {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#contact-details-middle>p {
+    width: 300px;
+    height: 90px;
+    margin-top: 41px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#copy-rights {
+    height: 30px;
+    width: 381px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
