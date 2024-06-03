@@ -3,7 +3,7 @@ html{
 }
 
 body {
-    background-color: white;
+    background-color: #1e2529;
     font-family: "Sen", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -37,7 +37,7 @@ header>nav {
 }
 
 header>nav>a {
-    color: black;
+    color: white;
     text-decoration: none;
     margin-right: 35px;
     width: 100px;
@@ -72,7 +72,7 @@ header>nav>a {
 }
 
 #hero-section>#left-side {
-    color: black;
+    color: white;
     font-weight: 400;
     font-size: 25px;
 }
@@ -92,7 +92,7 @@ header>nav>a {
     font-weight: 600;
     font-style: italic;
     font-size: 45px;
-    color: black;
+    color: white;
 }
 
 .words {
@@ -109,7 +109,7 @@ header>nav>a {
     font-weight: 700;
     font-style: italic;
     font-size: 34px;
-    color: #16615F;
+    color: #0ef;
     display: block;
     animation: spin_words 6s infinite;
 }
@@ -118,7 +118,7 @@ header>nav>a {
     position: absolute;
     display: block;
     top: 260px;
-    color: black;
+    color: white;
 }
 #hero-section>#left-side>.socials {
     height: 100px;
@@ -165,7 +165,7 @@ header>nav>a {
     height: 7px;
     width: 33dvw;
     border: 0;
-    background: #192A56;
+    background: #0ef;
 }
 
 .line-left {
@@ -194,7 +194,7 @@ header>nav>a {
 #About>h1 {
     width: 230px;
     height: 60px;
-    color: #192A56;
+    color: #0ef;
     font-weight: bold;
     font-size: 38px;
     position: absolute;
@@ -222,7 +222,7 @@ header>nav>a {
     width: 741px;
     position: absolute;
     font-weight: bold;
-    color: black;
+    color: white;
     font-size: 20px;
     text-align: left;
     top: -200px;
@@ -235,7 +235,7 @@ header>nav>a {
     height: 400px;
     width: 741px;
     position: absolute;
-    color: black;
+    color: white;
     font-size: 20px;
     text-align: center;
     top: 400px;
@@ -248,7 +248,7 @@ header>nav>a {
     height: 400px;
     width: 741px;
     position: absolute;
-    color: black;
+    color: white;
     font-size: 20px;
     text-align: center;
     top: 400px;
@@ -276,7 +276,7 @@ header>nav>a {
 #service>h1 {
     width: 230px;
     height: 60px;
-    color: #192A56;
+    color: #0ef;
     font-weight: bold;
     font-size: 38px;
     position: absolute;
@@ -289,7 +289,7 @@ header>nav>a {
 #h2{
     width: 230px;
     height: 60px;
-    color: #192A56;
+    color: #0ef;
     font-weight: bold;
     font-size: 20px;
     position: absolute;
@@ -303,7 +303,7 @@ header>nav>a {
     height: 400px;
     width: 741px;
     position: absolute;
-    color: black;
+    color: white;
     font-size: 20px;
     text-align: center;
     top: 50px;
@@ -316,7 +316,7 @@ header>nav>a {
     height: 400px;
     width: 741px;
     position: absolute;
-    color: black;
+    color: white;
     font-size: 20px;
     text-align: center;
     top: 50px;
@@ -329,13 +329,29 @@ header>nav>a {
     height: 400px;
     width: 741px;
     position: absolute;
-    color: black;
+    color: white;
     font-size: 20px;
     text-align: center;
     top: 50px;
     bottom: 0;
     right: -200px;
     margin: auto;
+}
+
+#tools {
+    height: 100px;
+    width: 835px;
+    position: absolute;
+    bottom: 200px;
+    display: flex;
+    align-items: center;
+    right: 13dvw;
+    margin: auto;
+}
+
+#tools>img {
+    margin-right: 50px;
+    transition-duration: .5s;
 }
 
 
