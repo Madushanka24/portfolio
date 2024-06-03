@@ -7,7 +7,7 @@
     <meta name="keywords" content="I'm Madushanka Sandaruwan Student of IJSE,learning to be a software engineer">
     <meta name="author" content="Madushanka Sandaruwan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/normalize/normalize.css">
+    <link rel="stylesheet" href="../normalize/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,14 +17,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="assets/styles/homePage.css">
+    <link rel="stylesheet" href="../styles/homePage.css">
 </head>
     <body id="home">
 
         <!--Header-->
         <header>
             <div id="logo">
-                <img src="assets/image/icons8-portfolium-100.png" title="logo" alt="logo" width="100" height="50">
+                <img src="../image/icons8-portfolium-100.png" title="logo" alt="logo" width="100" height="50">
             </div>
 
 
@@ -34,7 +34,7 @@
                 <a href="#About">About</a>
                 <a href="#service" >Services</a>
                 <a href="#Projects" >Projects</a>
-                <a href="#Assignments" >Assignments</a>
+                <a href="../Pages/Assignments.html" >Assignments</a>
                 <a href="#Contact" >Contact</a>
             </nav>
 
@@ -150,11 +150,11 @@
                 </ul>
 
                 <div id="tools">
-                    <img src="assets/image/img.png" title="mysql" alt="mysql logo" width="100" height="96">
-                    <img src="assets/image/img_1.png" title="java" alt="java logo" width="100" height="96">
-                    <img src="assets/image/img_2.png" title="js" alt="js logo" width="100" height="96">
-                    <img src="assets/image/img_3.png" title="html" alt="html logo" width="100" height="96">
-                    <img src="assets/image/img_4.png" title="css" alt="css logo" width="100" height="96">
+                    <img src="../image/img.png" title="mysql" alt="mysql logo" width="100" height="96">
+                    <img src="../image/img_1.png" title="java" alt="java logo" width="100" height="96">
+                    <img src="../image/img_2.png" title="js" alt="js logo" width="100" height="96">
+                    <img src="../image/img_3.png" title="html" alt="html logo" width="100" height="96">
+                    <img src="../image/img_4.png" title="css" alt="css logo" width="100" height="96">
                 </div>
 
                 <h6>"Building the future one line of code at a time."</h6>
@@ -175,50 +175,49 @@
                 <h6>"Turning ideas into reality, one algorithm at a time."</h6>
         </section>
 
-        <section id="Assignments">
-            <div>
-                <h5>TASK DELIVERABLE</h5>
-                <h2>Assignments</h2>
-                <button type="button">see more</button>
-
-                <h6>"Embracing challenges, conquering assignments, and evolving as a software engineering trailblazer."</h6>
-            </div>
-        </section>
 
         <footer id="Contact">
-            <div>
-                <h5>CONTACT INFO</h5>
-                <h2>Get In Touch</h2>
-            </div>
+
+            <div class="line-left"><hr></div>
+            <div class="line-right"><hr></div>
+            <h1>CONTACT INFO</h1>
+
+
 
             <!--Left Side-->
-            <div>
-                <h6>Message</h6>
-                <h5>Write Me Something</h5>
-
-                <img src="assets/image/icons8-sent-96.png" width="20" height="22">
-                <h6>madushanka20021224@gmail.com</h6>
-                <img src="assets/image/icons8-incoming-call-100.png" width="20" height="22">
-                <h6>+94 71 110 5612</h6>
-                <img src="assets/image/icons8-whatsapp-192.png" width="20" height="22"><br>
-                <button type="submit">Submit</button>
-            </div>
-
-            <!--Right Side-->
-            <div>
+            <form id="contact-details-left-side">
+                <h2>Send a Email</h2>
                 <input type="text" id="name" placeholder=" your Name"><br><br>
                 <input type="text" id="email" placeholder=" your Email"><br><br>
                 <textarea
                         id="message"
                         placeholder="your message"
                         rows="10"
-                        cols="50"
+                        cols="30"
                 ></textarea><br><br>
 
                 <button type="submit">Submit</button>
+            </form>
+
+            <!--Middle-->
+            <div id="contact-details-middle">
+
+                <p>
+                    My Email <br>
+                    madushanka20021224@gmail.com
+                </p>
+
+                <p>
+                    WhatsApp <br>
+                    +0711105612
+                </p>
+
+                <p>
+                    Telegram <br>
+                    +94715744202
+                </p>
 
             </div>
-
             <div><h6>© 2024 Madushanka Sandaruwan. All rights reserved</h6></div>
         </footer>
     </body>

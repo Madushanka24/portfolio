@@ -392,5 +392,63 @@ header>nav>a {
     text-decoration: none;
 }
 
+#Contact {
+    position: relative;
+    height: 790px;
+    width: 88%;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 
+#Contact>h1 {
+    width: 230px;
+    height: 60px;
+    color: #0ef;
+    font-weight: bold;
+    font-size: 38px;
+    position: absolute;
+    left: 50px;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
 
+#contact-details-left-side>h2 {
+    color: #0ef;
+}
+
+#contact-details-left-side {
+    width: 350px;
+    height: 410px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    margin: auto;
+    border-radius: 20px;
+    border: 3px solid #0ef;
+}
+
+#contact-details-left-side>input {
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: #E0E0E0;
+    background-color: rgba(25, 42, 86, 0.87);
+}
+
+#contact-details-left-side>textarea {
+    text-align: center;
+    border-radius: 20px;
+    color: #E0E0E0;
+    background-color: rgba(25, 42, 86, 0.87);
+}
+
+::placeholder {
+    color: #E0E0E0;
+}
