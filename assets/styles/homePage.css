@@ -418,7 +418,7 @@ header>nav>a {
     height: 1818px;
     position: absolute;
     bottom: -13px;
-    left: -60px;
+    left: -181px;
     right: 0px;
     z-index: -1;
 }
@@ -518,6 +518,14 @@ header>nav>a {
     margin: auto;
     align-content: flex-end;
 }
+
+#logo-footer {
+    position: absolute;
+    top: 386px;
+    right: -50px;
+    margin: auto;
+}
+
 
 
 #copy-rights {
