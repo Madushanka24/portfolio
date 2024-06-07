@@ -391,6 +391,7 @@ header>nav>a {
     left: 555px;
     top: 646px;
     background-color: #1e2529;
+    cursor: pointer;
 }
 
 #github-button-tag {
@@ -477,6 +478,7 @@ header>nav>a {
     height: 25px;
     width: 65px;
     background-color: #1e2529;
+    cursor: pointer;
 }
 
 ::placeholder {
@@ -490,7 +492,7 @@ header>nav>a {
     text-align: center;
     top: -55px;
     bottom: 0;
-    left: 10px;
+    left: -50px;
     right: 0;
     margin: auto;
 }
@@ -509,11 +511,12 @@ header>nav>a {
     height: 220px;
     font-size: 22px;
     position: absolute;
-    top: 30px;
+    top: 500px;
     right: 0;
     left: 0;
     bottom: 0;
     margin: auto;
+    align-content: flex-end;
 }
 
 
