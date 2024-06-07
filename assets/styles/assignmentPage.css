@@ -28,8 +28,8 @@ header>nav {
     height: fit-content;
     position: absolute;
     font-weight: 400;
-    font-size: 22px;
-    right: 120px;
+    font-size: 20px;
+    right: -25px;
     bottom: 28%;
 }
 
