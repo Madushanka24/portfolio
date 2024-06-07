@@ -124,8 +124,8 @@ header>nav>a {
     height: 100px;
     width: 470px;
     position: absolute;
-    bottom: 35px;
-    left: -10px;
+    bottom: -46px;
+    left: -90px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -198,7 +198,7 @@ header>nav>a {
     font-weight: bold;
     font-size: 38px;
     position: absolute;
-    left: 50px;
+    left: 35px;
     right: 0;
     top: 0;
     margin: auto;
@@ -227,7 +227,7 @@ header>nav>a {
     text-align: left;
     top: -200px;
     bottom: 0;
-    right: 120px;
+    right: 0px;
     margin: auto;
 }
 
@@ -240,7 +240,7 @@ header>nav>a {
     text-align: center;
     top: 400px;
     bottom: 0;
-    right: 300px;
+    right: 200px;
     margin: auto;
 }
 
@@ -253,7 +253,7 @@ header>nav>a {
     text-align: center;
     top: 400px;
     bottom: 0;
-    right: -20px;
+    right: -120px;
     margin: auto;
 }
 
@@ -345,8 +345,9 @@ header>nav>a {
     bottom: 200px;
     display: flex;
     align-items: center;
-    right: 13dvw;
+    left: 310px;
     margin: auto;
+    top: 575px;
 }
 
 #tools>img {
@@ -372,7 +373,7 @@ header>nav>a {
     font-weight: bold;
     font-size: 38px;
     position: absolute;
-    left: 50px;
+    left: 35px;
     right: 0;
     top: 0;
     margin: auto;
@@ -381,9 +382,15 @@ header>nav>a {
 
 
 #github-button {
-    width: 280px;
-    height: 50px;
+    width: 200px;
+    height: 45px;
     bottom: 0;
+    border: 3px solid #00eeff;
+    border-radius: 10px;
+    position: absolute;
+    left: 555px;
+    top: 646px;
+    background-color: #1e2529;
 }
 
 #github-button-tag {
@@ -403,16 +410,28 @@ header>nav>a {
     margin: auto;
 }
 
+#Contact-Ellipse {
+    clip-path: ellipse(96% 20% at 93% 100%);
+    background-color: #192941;
+    width: 135%;
+    height: 1818px;
+    position: absolute;
+    bottom: -13px;
+    left: -60px;
+    right: 0px;
+    z-index: -1;
+}
+
 #Contact>h1 {
     width: 230px;
     height: 60px;
     color: #0ef;
     font-weight: bold;
-    font-size: 38px;
+    font-size: 30px;
     position: absolute;
-    left: 50px;
+    left: 4px;
     right: 0;
-    top: 0;
+    top: 7px;
     margin: auto;
 }
 
@@ -449,6 +468,17 @@ header>nav>a {
     background-color: rgba(25, 42, 86, 0.87);
 }
 
+#contact-details-left-side>#submit-button {
+    position: absolute;
+    top: 419px;
+    left: 147px;
+    border: 3px solid #0ef;
+    border-radius: 7px;
+    height: 25px;
+    width: 65px;
+    background-color: #1e2529;
+}
+
 ::placeholder {
     color: #E0E0E0;
 }
@@ -466,21 +496,22 @@ header>nav>a {
 }
 
 #contact-details-middle>p {
-    width: 300px;
+    width: 329px;
     height: 90px;
     margin-top: 41px;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 24px;
 }
 
 #copy-rights {
     height: 30px;
     width: 381px;
-    font-size: 20px;
+    font-size: 18px;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
+    color: white;
 }
