@@ -78,3 +78,16 @@ header>nav>a {
 #right-side>p:nth-child(2) {
     display: none;
 }
+
+.line-left-01>hr,.line-right-02>hr {
+    height: 3px;
+    width: 32dvw;
+    border: 0;
+    background: #0ef;
+}
+
+.line-left,.line-left-01 {
+    position: absolute;
+    left: 0;
+    top: 22px;
+}
