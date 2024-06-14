@@ -180,7 +180,7 @@ header>nav>a {
     top: 10px;
 }
 
-#About {
+#AboutME {
     position: relative;
     height: 790px;
     width: 88%;
@@ -191,7 +191,7 @@ header>nav>a {
     margin: auto;
 }
 
-#About>h1 {
+#AboutME>h1 {
     width: 230px;
     height: 60px;
     color: #0ef;
