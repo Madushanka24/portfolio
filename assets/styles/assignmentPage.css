@@ -483,4 +483,17 @@ footer {
         margin-bottom: 60px;
     }
 
+    .line-left, .line-left-01 {
+        top: 13px;
+    }
+
+    .line-right, .line-right-02 {
+        top: 13px;
+    }
+
+    .line-left>hr, .line-right>hr {
+        height: 7px;
+        width: 22dvw;
+    }
+
 }
