@@ -632,4 +632,46 @@ footer {
         top: 8px;
     }
 
+    .grid {
+        height: 713px;
+        width: 752px;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        justify-items: center;
+        grid-row-gap: 45px;
+        grid-column-gap: 0;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #assignments>h1 {
+        width: 190px;
+        height: 40px;
+        font-size: 31px;
+    }
+
+    .grid-assignments {
+        height: 1038px;
+        display: grid;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        justify-items: center;
+        grid-row-gap: 0;
+        grid-column-gap: 0;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #assignments {
+        position: relative;
+        height: 1360px;
+        width: 98%;
+        top: 150px;
+    }
+
 }
