@@ -85,3 +85,24 @@ body.no-scroll {
     height: 195px;
 }
 
+.close {
+    border: 2px solid #192A56;
+    color: #192A56;
+    background-color: #fbac00;
+    border-radius: 10px;
+    font-weight: 500;
+    width: 120px;
+    height: fit-content;
+    cursor: pointer;
+    font-size: 17px;
+    transition-duration: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+}
+
+.close:hover {
+    border: 2px solid #192A56;
+    border-radius: 10px 0 10px 0;
+    font-weight: 750;
+    background-color: #f0932b;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px;
+}
