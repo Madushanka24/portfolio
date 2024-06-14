@@ -93,7 +93,7 @@ header>nav>a {
 #assignments>h1 {
     width: 290px;
     height: 60px;
-    color: #0ef;
+    color: #192A56;
     font-weight: bold;
     font-size: 48px;
     position: absolute;
@@ -102,6 +102,7 @@ header>nav>a {
     top: 0;
     margin: auto;
 }
+
 
 .line-left>hr,.line-right>hr {
     height: 7px;
