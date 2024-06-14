@@ -234,6 +234,17 @@ header>nav>a {
     transition-duration: 0.5s;
 }
 
+#siteMap,#wireFrame,#figma {
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
 footer {
     position: relative;
     height: 0px;
