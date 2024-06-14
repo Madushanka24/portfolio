@@ -34,3 +34,17 @@
     top: calc(50% - 25px);
     visibility: visible;
 }
+
+.display-card-08 {
+    position:fixed;
+    top: calc(50% - 25px);
+    visibility: visible;
+}
+
+.blur-background {
+    filter: blur(5px);
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
