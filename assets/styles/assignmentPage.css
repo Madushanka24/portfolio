@@ -834,5 +834,18 @@ footer {
         text-decoration: none;
     }
 
+    .assignment-btn {
+        transition-duration: 1s;
+        cursor: pointer;
+        font-weight: bold;
+
+    }
+
+    footer {
+        height: 360px;
+        top: 0;
+        z-index: 0;
+    }
+
 }
 
