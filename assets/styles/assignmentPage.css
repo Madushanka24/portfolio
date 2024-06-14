@@ -424,3 +424,13 @@ footer {
         width: 34dvw;
     }
 }
+
+@media all and (max-width: 1024px) {
+
+    body {
+        overflow-x: hidden;
+    !important;
+    }
+
+
+}
