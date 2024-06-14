@@ -79,18 +79,42 @@ header>nav>a {
     display: none;
 }
 
+#assignments {
+    position: relative;
+    height: 1440px;
+    width: 88%;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#assignments>h1 {
+    width: 290px;
+    height: 60px;
+    color: #192A56;
+    font-weight: bold;
+    font-size: 48px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
+
 .line-left>hr,.line-right>hr {
     height: 3px;
     width: 25dvw;
     border: 0;
-    background: #0ef;
+    background: #192A56;
 }
 
 .line-left-01>hr,.line-right-02>hr {
     height: 3px;
     width: 32dvw;
     border: 0;
-    background: #0ef;
+    background: #192A56;
 }
 
 .line-left,.line-left-01 {
@@ -104,5 +128,3 @@ header>nav>a {
     right: 0;
     top: 22px;
 }
-
-
