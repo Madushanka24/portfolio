@@ -6,7 +6,7 @@ checkboxesAssignments.forEach(function(checkbox, index) {
     checkbox.addEventListener('change', function() {
         // If checkbox is checked
         if (this.checked) {
-            containersAssignments[index].style.borderColor = '#eab520';
+            containersAssignments[index].style.borderColor = '#0ef';
             containersAssignments[index].style.backgroundSize = '150px 150px';
         } else {
             containersAssignments[index].style.borderColor = '#192A56';
@@ -30,7 +30,7 @@ function detectDivSizeChanges() {
             checkbox.addEventListener('change', function() {
                 // If checkbox is checked
                 if (this.checked) {
-                    containersAssignments[index].style.borderColor = '#eab520';
+                    containersAssignments[index].style.borderColor = '#0ef';
                     containersAssignments[index].style.backgroundSize = '110px 110px';
                 } else {
                     containersAssignments[index].style.borderColor = '#192A56';
@@ -49,7 +49,7 @@ function detectDivSizeChanges() {
             checkbox.addEventListener('change', function() {
                 // If checkbox is checked
                 if (this.checked) {
-                    containersAssignments1[index].style.borderColor = '#eab520';
+                    containersAssignments1[index].style.borderColor = '#0ef';
                     containersAssignments1[index].style.backgroundSize = '110px 110px';
                 } else {
                     containersAssignments1[index].style.borderColor = '#192A56';
