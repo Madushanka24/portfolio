@@ -560,4 +560,18 @@ footer {
         color: #E0E0E0;
     }
 
+    #copy-rights {
+        height: 30px;
+        width: 351px;
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    !important;
+    }
+
 }
