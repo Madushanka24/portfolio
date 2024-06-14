@@ -756,5 +756,17 @@ footer {
         right: 14px;
     }
 
+    .line-left, .line-left-01 {
+        top: 6px;
+    }
+
+    .line-right, .line-right-02 {
+        top: 6px;
+    }
+
+    .line-left>hr, .line-right>hr {
+        height: 7px;
+        width: 12dvw;
+    }
 }
 
