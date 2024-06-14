@@ -245,6 +245,19 @@ header>nav>a {
     margin: auto;
 }
 
+#pdf-1,#view-1,#git-1,#pdf-2,#view-2,#git-2,#pdf-3,#view-3,#git-3,#pdf-4,#view-4,#git-4,#pdf-5,#view-5,#git-5,
+#pdf-6,#view-6,#git-6,#pdf-7,#view-7,#git-7,#pdf-8,#view-8,#git-8,#pdf-9,#view-9,#git-9,#pdf-10,#view-10,#git-10,
+#pdf-11,#view-11,#git-1{
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
 footer {
     position: relative;
     height: 0px;
@@ -259,7 +272,7 @@ footer {
 #copy-rights {
     height: 30px;
     width: 381px;
-    font-size: 18px;
+    font-size: 16px;
     position: absolute;
     bottom: 0;
     left: 0;
