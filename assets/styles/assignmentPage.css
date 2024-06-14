@@ -940,5 +940,64 @@ footer {
         top: 100px;
     }
 
+    .line-left-01>hr, .line-right-02>hr {
+        height: 7px;
+        width: 22dvw;
+    }
+
+    #assignments>h1 {
+        width: 146px;
+        height: 30px;
+        font-size: 24px;
+    }
+
+    .grid-assignments {
+        height: 1158px;
+        display: grid;
+        margin: auto;
+        position: absolute;
+        top: 90px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        justify-items: center;
+        grid-row-gap: 0;
+        grid-column-gap: 0;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .as-label {
+        display: inline-block;
+        width: 125px;
+        height: 150px;
+    }
+
+    #assignments-cards>div {
+        width: 125px;
+        height: 150px;
+        margin: 10px;
+        background-size: 130px 130px;
+        border-radius: 20px 70px 20px 20px;
+        z-index: 2;
+    }
+
+    .see-more-btn {
+        color: #192A56;
+        font-size: 13.5px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .assignment-btn {
+        transition-duration: 1s;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    footer {
+        height: 340px;
+        top: 0;
+    }
+
 }
 
