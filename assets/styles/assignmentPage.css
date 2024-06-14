@@ -234,3 +234,25 @@ header>nav>a {
     font-size: 18px;
     text-decoration: none;
 }
+
+footer {
+    position: relative;
+    height: 0px;
+    top: 210px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+}
+
+#copy-rights {
+    height: 30px;
+    width: 381px;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
