@@ -379,6 +379,35 @@ header>nav>a {
     margin: auto;
 }
 
+.grid{
+    height: 560px;
+    display: grid;
+    margin: 140px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-items: center;
+    grid-row-gap: 80px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-projects {
+    height: 928px;
+    display: grid;
+    margin: 140px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-items: center;
+    grid-row-gap: 80px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
 
 
 #github-button {
