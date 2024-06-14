@@ -199,3 +199,10 @@ header>nav>a {
     text-align: center;
     transition: .7s ease-in-out;
 }
+
+.assignment-card-title {
+    margin: 10px;
+    position: relative;
+    font-size: 18px;
+    top: 0;
+}
