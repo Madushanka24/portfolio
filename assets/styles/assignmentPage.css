@@ -854,3 +854,73 @@ footer {
     }
 }
 
+@media all and (max-width: 320px) {
+
+    body {
+        overflow-x: hidden;
+    !important;
+    }
+
+    header>nav {
+        justify-content: space-between;
+    }
+
+    header>nav>a {
+        margin: 1rem 0;
+        text-align: center;
+        transform: translateY(-50px);
+        transition: .3s ease;
+        opacity: 0;
+    }
+
+    header {
+        height: 70px;
+    }
+
+    header>#logo {
+        width: 60px;
+        height: 57px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    header>#phone {
+        display: block;
+    }
+
+    #hero-section {
+        position: relative;
+        height: 400px;
+        width: 98%;
+    }
+
+    #hero-section>#left-side {
+        width: 171px;
+        height: 192px;
+    }
+
+    #hero-section>#right-side {
+        height: 300px;
+        width: 250px;
+        font-size: 11px;
+        right: 0;
+        margin-top: 90px;
+        margin-bottom: 70px;
+    }
+
+    #right-side>p:first-child {
+        display: none;
+    }
+
+    #right-side>p:nth-child(2) {
+        display: block;
+        width: 120px;
+        position: absolute;
+        right: 4px;
+    }
+}
+
