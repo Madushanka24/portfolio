@@ -408,12 +408,19 @@ footer {
         margin-bottom: 60px;
     }
 
-    #hero-section>#right-side>.socials {
-        height: 100px;
-        width: 90px;
-        bottom: 155px;
-        right: 310px;
+    #assignments {
+        position: relative;
+        height: 1430px;
+        width: 98%;
+        top: 200px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
     }
 
-
+    .line-left-01>hr, .line-right-02>hr {
+        height: 7px;
+        width: 34dvw;
+    }
 }
