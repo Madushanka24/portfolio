@@ -204,7 +204,7 @@ header>nav>a {
     margin: auto;
 }
 
-#About-left-side {
+#aboutMe-left-side {
     width: 696px;
     height: 680px;
     position: absolute;
@@ -217,7 +217,7 @@ header>nav>a {
     margin-bottom: 80px;
 }
 
-#About-right-side {
+#aboutMe-right-side {
     height: 400px;
     width: 741px;
     position: absolute;
