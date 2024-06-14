@@ -574,4 +574,29 @@ footer {
     !important;
     }
 
+    header>nav {
+        width: 100%;
+        height: 0;
+        background: rgba(25, 42, 86, 0.29);
+        backdrop-filter: blur(50px);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        transition: .3s ease;
+    }
+
+    header>nav>a {
+        margin: 1rem 0;
+        text-align: center;
+        transform: translateY(-50px);
+        transition: .3s ease;
+        opacity: 0;
+    }
+
 }
