@@ -1,0 +1,19 @@
+.pop-up-box-for-card-03,.pop-up-box-for-card-08 {
+    width: 350px;
+    height: 370px;
+    border-radius: 30px;
+    background: #E0E0E0;
+    border: 3px solid rgba(39, 60, 115, 0.88);
+    box-shadow: rgba(0, 0, 0, 0.8) 0 22px 70px 4px;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 4;
+    top: -60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
