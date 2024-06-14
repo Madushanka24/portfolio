@@ -674,4 +674,35 @@ footer {
         top: 150px;
     }
 
+    footer {
+        height: 360px;
+        top: 100px;
+    }
+
+    #copy-rights {
+        height: 30px;
+        width: 286px;
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 425px) {
+
+    body {
+        overflow-x: hidden;
+    !important;
+    }
+
+    header>nav {
+        justify-content: space-between;
+    }
+
+    header>nav>a {
+        margin: 1rem 0;
+        text-align: center;
+        transform: translateY(-50px);
+        transition: .3s ease;
+        opacity: 0;
+    }
+
 }
