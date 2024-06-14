@@ -79,6 +79,13 @@ header>nav>a {
     display: none;
 }
 
+.line-left>hr,.line-right>hr {
+    height: 3px;
+    width: 25dvw;
+    border: 0;
+    background: #0ef;
+}
+
 .line-left-01>hr,.line-right-02>hr {
     height: 3px;
     width: 32dvw;
@@ -91,3 +98,11 @@ header>nav>a {
     left: 0;
     top: 22px;
 }
+
+.line-right,.line-right-02 {
+    position: absolute;
+    right: 0;
+    top: 22px;
+}
+
+
