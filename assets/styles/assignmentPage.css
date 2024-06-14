@@ -43,3 +43,29 @@ header>nav>a {
     text-align: center;
     transition-duration: 1s;
 }
+
+#hero-section {
+    position: relative;
+    height: 690px;
+    width: 88%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#hero-section>#right-side {
+    height: 500px;
+    width: 790px;
+    color: #E0E0E0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 130px;
+    margin-bottom: 60px;
+}
