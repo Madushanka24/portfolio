@@ -422,7 +422,15 @@ header>nav>a {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.as-label {
+    display: inline-block;
+    width: 195px;
+    height: 230px;
+}
 
+.as-label>input {
+    display: none;
+}
 
 
 #github-button {
