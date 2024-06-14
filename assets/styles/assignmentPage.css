@@ -408,7 +408,12 @@ footer {
         margin-bottom: 60px;
     }
 
-
+    #hero-section>#right-side>.socials {
+        height: 100px;
+        width: 90px;
+        bottom: 155px;
+        right: 310px;
+    }
 
 
 }
