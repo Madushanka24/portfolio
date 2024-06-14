@@ -157,6 +157,7 @@ header>nav>a {
     grid-template-columns: repeat(3, 1fr);
 }
 
+
 #assignments-cards>div {
     width: 195px;
     height: 230px;
