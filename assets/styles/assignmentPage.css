@@ -171,3 +171,13 @@ header>nav>a {
     overflow: hidden;
     transition: .8s ease-in-out;
 }
+
+.as-label {
+    display: inline-block;
+    width: 195px;
+    height: 230px;
+}
+
+.as-label>input {
+    display: none;
+}
