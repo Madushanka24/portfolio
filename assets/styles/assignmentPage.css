@@ -534,5 +534,30 @@ footer {
         width: 32dvw;
     }
 
+    .grid-assignments {
+        height: 928px;
+        display: grid;
+        margin: 120px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        justify-items: center;
+        grid-row-gap: 80px;
+        grid-column-gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    footer {
+        position: relative;
+        height: 0px;
+        top: 70px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        color: #E0E0E0;
+    }
 
 }
