@@ -496,4 +496,43 @@ footer {
         width: 22dvw;
     }
 
+    .grid {
+        height: 903px;
+        width: 789px;
+        display: grid;
+        margin: 100px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        justify-items: center;
+        grid-row-gap: 80px;
+        grid-column-gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #assignments {
+        position: relative;
+        height: 1460px;
+        width: 98%;
+        top: 100px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    #assignments>h1 {
+        width: 230px;
+        height: 44px;
+        font-size: 38px;
+    }
+
+    .line-left-01>hr, .line-right-02>hr {
+        height: 7px;
+        width: 32dvw;
+    }
+
+
 }
