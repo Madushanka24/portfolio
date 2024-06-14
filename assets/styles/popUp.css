@@ -48,3 +48,19 @@
 body.no-scroll {
     overflow: hidden;
 }
+
+.as-03-cases {
+    width: 330px;
+    height: 40px;
+    color: #E0E0E0;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #f0932b;
+    background-color: #192A56;
+    border-radius: 15px 0 15px 0;
+    transition-duration: 0.2s;
+}
