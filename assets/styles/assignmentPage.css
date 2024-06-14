@@ -999,5 +999,11 @@ footer {
         top: 0;
     }
 
+    #copy-rights {
+        height: 15px;
+        width: 191px;
+        font-size: 10px;
+    }
+
 }
 
