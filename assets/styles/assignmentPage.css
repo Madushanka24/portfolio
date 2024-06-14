@@ -228,3 +228,9 @@ header>nav>a {
     transition-duration: 1s;
     cursor: pointer;
 }
+
+.see-more-btn {
+    color: #192A56;
+    font-size: 18px;
+    text-decoration: none;
+}
