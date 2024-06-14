@@ -213,6 +213,8 @@ header>nav>a {
     padding: 5px;
     font-size: 16px;
     font-weight: 600;
+    position: relative;
+    bottom: 20px;
 }
 
 .assignment-btn {
