@@ -128,3 +128,32 @@ header>nav>a {
     right: 0;
     top: 22px;
 }
+
+.grid{
+    height: 560px;
+    display: grid;
+    margin: 140px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-items: center;
+    grid-row-gap: 80px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-assignments {
+    height: 928px;
+    display: grid;
+    margin: 140px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-items: center;
+    grid-row-gap: 80px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
