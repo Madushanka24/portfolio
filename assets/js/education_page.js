@@ -39,3 +39,23 @@ function detectDivSizeChanges() {
             });
         });
     }
+
+    if (divWidth === 125 && divHeight === 150) {
+        // Applying changes to the background size in the checkbox event listener
+        var checkboxesAssignments1 = document.querySelectorAll('.card-02');
+        var containersAssignments1 = document.querySelectorAll('.assignment-card');
+
+        checkboxesAssignments1.forEach(function(checkbox, index) {
+            checkbox.addEventListener('change', function() {
+                // If checkbox is checked
+                if (this.checked) {
+                    containersAssignments1[index].style.borderColor = '#eab520';
+                    containersAssignments1[index].style.backgroundSize = '110px 110px';
+                } else {
+                    containersAssignments1[index].style.borderColor = '#192A56';
+                    containersAssignments1[index].style.backgroundSize = '130px 130px';
+                }
+            });
+        });
+    }
+}
