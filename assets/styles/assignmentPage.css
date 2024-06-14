@@ -933,5 +933,12 @@ footer {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    #assignments {
+        position: relative;
+        height: 1210px;
+        width: 98%;
+        top: 100px;
+    }
+
 }
 
