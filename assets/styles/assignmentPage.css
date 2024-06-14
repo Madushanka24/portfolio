@@ -847,5 +847,10 @@ footer {
         z-index: 0;
     }
 
+    #copy-rights {
+        height: 20px;
+        width: 230px;
+        font-size: 12px;
+    }
 }
 
