@@ -64,3 +64,24 @@ body.no-scroll {
     border-radius: 15px 0 15px 0;
     transition-duration: 0.2s;
 }
+
+.pop-up-box-for-card-03-content,.pop-up-box-for-card-08-content {
+    width: 338px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    top: 15px;
+    row-gap: 8px;
+    transition: all 0.5s;
+}
+
+.pop-up-box-for-card-08-content {
+    width: 338px;
+    height: 195px;
+}
+
