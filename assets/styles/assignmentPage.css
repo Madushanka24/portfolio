@@ -212,3 +212,19 @@ header>nav>a {
     font-size: 16px;
     font-weight: 600;
 }
+
+.assignment-btn {
+    width: 50%;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    margin: auto;
+
+    border: 3px solid #E0E0E0;
+    background-color: #E0E0E0;
+    border-radius: 5px 5px 5px 5px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
