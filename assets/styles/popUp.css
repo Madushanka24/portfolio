@@ -17,3 +17,20 @@
     transform: translate(-50%, -50%);
     visibility: hidden;
 }
+
+.pop-up-box-for-card-08 {
+    width: 350px;
+    height: 225px;
+}
+
+.display-card-03 {
+    position:fixed;
+    top: calc(50% - 25px);
+    visibility: visible;
+}
+
+.display-card-04 {
+    position:fixed;
+    top: calc(50% - 25px);
+    visibility: visible;
+}
