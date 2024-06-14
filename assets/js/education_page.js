@@ -59,3 +59,9 @@ function detectDivSizeChanges() {
         });
     }
 }
+
+// Call the function initially
+detectDivSizeChanges();
+
+// Add event listener for resize event
+window.addEventListener("resize", detectDivSizeChanges);
