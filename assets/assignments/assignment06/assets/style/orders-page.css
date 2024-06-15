@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #1e2529;
 }
 #nav-bar-tags>a {
     margin-right: 25px; /* Adjust this value to set the space between anchor tags */
@@ -17,7 +17,7 @@ body {
 .Customers,
 .Items {
     display: inline-block;
-    color: #1e2529;
+    color: white;
     padding: 18px 28px;
     border-radius: 30px;
     text-decoration: none;
@@ -47,7 +47,7 @@ footer>p {
 #orders-main-section {
     width: 98vw;
     height: 675px;
-    background-color: white;
+    background-color: darkgrey;
     position: relative;
     margin: auto;
     border-radius: 30px;

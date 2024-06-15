@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #1e2529;
 }
 #nav-bar-tags>span {
     margin-right: 25px; /* Adjust this value to set the space between anchor tags */
@@ -17,7 +17,7 @@ body {
 .Customers,
 .Items {
     display: inline-block;
-    color: #1e2529;
+    color: white;
     padding: 18px 28px;
     border-radius: 30px;
     text-decoration: none;
@@ -28,7 +28,7 @@ body {
 .Orders:hover,
 .Customers:hover,
 .Items:hover {
-    background-color: #1e2529;
+    background-color: #0ef;
     color: white;
 }
 
@@ -36,7 +36,7 @@ footer {
     height: 110px;
     width: 100%;
     color: white;
-    background-color: #1e2529;
+    background-color: #086272;
     text-align: center;
 }
 footer>p {
@@ -46,7 +46,7 @@ footer>p {
 #home-main-section {
     width: 70vw;
     height: 675px;
-    background-color: white;
+    background-color: darkgrey;
     position: relative;
     text-align: center;
     left: 0;

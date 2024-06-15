@@ -1,5 +1,5 @@
 body {
-    background-color: #FEE5D4;
+    background-color: #1e2529;
 }
 #nav-bar-tags>a {
     margin-right: 25px; /* Adjust this value to set the space between anchor tags */
@@ -26,7 +26,7 @@ body {
 .Orders,
 .Items {
     display: inline-block;
-    color: #1e2529;
+    color: white;
     padding: 18px 28px;
     border-radius: 30px;
     text-decoration: none;
@@ -37,7 +37,7 @@ body {
 .Home:hover,
 .Orders:hover,
 .Items:hover {
-    background-color: #1e2529;
+    background-color: white;
     color: #FEE5D4;
 }
 
@@ -56,7 +56,7 @@ footer>p {
 #customers-main-section {
     width: 98vw;
     height: 675px;
-    background-color: #FFF4ED;
+    background-color: darkgrey;
     margin: auto;
     border-radius: 30px;
     padding: 20px; /* Add padding to prevent content from sticking to edges */
@@ -101,7 +101,7 @@ table.table.table-bordered > tbody > tr > td {
 #customers-main-section > input {
     width: 140px;
     height: 45px;
-    background-color: #1e2529;
+    background-color: white;
     border: 2px solid #1e2529;
     border-radius: 25px;
 }
@@ -273,7 +273,7 @@ table.table.table-bordered > tbody > tr > td {
 #totalCustomers {
     width: 250px;
     height: 160px;
-    background-color: #1e2529;
+    background-color: white;
     border: 3px solid #1e2529;
     border-radius: 30px;
     position: absolute;

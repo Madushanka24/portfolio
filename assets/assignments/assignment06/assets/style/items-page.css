@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #1e2529;
 }
 #nav-bar-tags>a {
     margin-right: 25px; /* Adjust this value to set the space between anchor tags */
@@ -14,7 +14,7 @@ body {
 }
 
 .current-page-button {
-    background-color: #1e2529;
+    background-color: #0ef;
     color: white;
     padding: 18px 28px;
     border-radius: 30px;
@@ -26,7 +26,7 @@ body {
 .Orders,
 .Customers {
     display: inline-block;
-    color: #1e2529;
+    color: white;
     padding: 18px 28px;
     border-radius: 30px;
     text-decoration: none;
@@ -56,7 +56,7 @@ footer>p {
 #items-main-section{
     width: 98vw;
     height: 675px;
-    background-color: white;
+    background-color: darkgrey;
     margin: auto;
     border-radius: 30px;
     padding: 20px; /* Add padding to prevent content from sticking to edges */
@@ -174,7 +174,7 @@ table.table.table-bordered > tbody > tr > td {
     font-style: italic;
     font-size: 17px;
     font-weight: 550;
-    color: #B05200;
+    color: black;
     position: absolute;
     left: 45px;
     top: 366px;
