@@ -225,10 +225,10 @@ header>nav>a {
     font-weight: bold;
     color: white;
     font-size: 20px;
-    text-align: left;
+    text-align: center;
     top: -200px;
     bottom: 0;
-    right: -50px;
+    right: -75px;
     margin: auto;
 }
 
@@ -239,7 +239,7 @@ header>nav>a {
     color: white;
     font-size: 20px;
     text-align: center;
-    top: 400px;
+    top: 500px;
     bottom: 0;
     right:100px;
     margin: auto;
@@ -252,14 +252,14 @@ header>nav>a {
     color: white;
     font-size: 20px;
     text-align: center;
-    top: 400px;
+    top: 500px;
     bottom: 0;
     right: -220px;
     margin: auto;
 }
 
 #aboutMe-right-side>p:nth-child(2) {
-    display: none;
+
 }
 
 
